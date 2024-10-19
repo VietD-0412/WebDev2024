@@ -1,0 +1,17 @@
+# Ignore environment variables
+/server/.env.development
+
+# Ignore node_modules directory
+# /server/node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build output
+/server/dist/
+
+# Ignore JBs config dir
+.idea/
+
+# Ignore the gitignore -_-
+.gitignore
