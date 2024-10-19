@@ -60,7 +60,6 @@ export const EditorProvider = ({children}: EditorProviderInterface) => {
 
   const focusEditor = () => {
     if (editorRef === null || editorRef.current === null) return;
-
     editorRef.current.focus();
   };
 
