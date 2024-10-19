@@ -9,3 +9,10 @@ Students are expected to:
 
 Student Info
 ================
+
+1. Doan Quang Viet
+2. Ha Thanh Tung
+3. Trinh Thanh Vinh
+4. Tran Anh Vu
+5. Dang Tran Trung Thanh
+6. Tran Thanh Nguyen
