@@ -22,9 +22,9 @@ class UserController {
     })
 
     public getUser = catchAsync(async (req: Request, res: Response) => {
-        const userID = parseInt(req.params.id);
+        const userId = parseInt(req.params.id);
 
-        const user = await userService.findUserById(userID);
+        const user = await userService.findUserById(userId);
 
         if(user === null) return res.sendStatus(400);
 
@@ -59,8 +59,11 @@ class UserController {
                 if (!user || user.isVerified) return res.sendStatus(400);
 
                     userService.updateIsVerified(user, true).then(() => {
-                        return res.sendStatus(500)
-                    })
+                        return res.sendStatus(200)
+                    }) 
+                    .catch(() => {
+                        return res.sendStatus(500);
+                      });
                 }).catch(() => {
                     return res.sendStatus(500)
                 })

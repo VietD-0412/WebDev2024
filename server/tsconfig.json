@@ -110,6 +110,7 @@
     "rootDir": "./",                                     // Root Directory
     "experimentalDecorators": true,                      // Enable use of Decorators
     "emitDecoratorMetadata": true,                        // Enable use of Decorators
-    "typeRoots": ["./node_modules/@types", "./src/types"], // TypeRoots
+    "typeRoots": ["./node_modules/@types", "./types"], // TypeRoots
+    "types":["node"]
   }
 }
