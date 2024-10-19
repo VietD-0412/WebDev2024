@@ -8,9 +8,4 @@ Students are expected to:
 * Push your commits regularly, with proper commit messages
 
 Student Info
-=======================
-
-* Name: Ha Thanh Tung
-* ID: 22BI13453
-* Group ID: 14
-* Project Name: Collaborative Note-Taking App
+================
